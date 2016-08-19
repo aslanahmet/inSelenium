@@ -12,4 +12,12 @@ class PageController extends Controller
     {
         $this->middleware('auth');
     }
+
+    public function index(){
+        return view('pages.create_test');
+    }
+
+    public function showTests(){
+        return view('pages.tests');
+    }
 }

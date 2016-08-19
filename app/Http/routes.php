@@ -17,4 +17,12 @@ Route::get('/', function () {
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'PageController@index');
+
+Route::get('tests', 'TestController@get_all_tests');
+
+Route::get('addtest/{id?}', 'TestController@add_tests');
+
+Route::get('alltest', 'TestController@get_all_tests');
+
+

@@ -1,0 +1,83 @@
+html{ overflow: auto; }
+html, body, iframe{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: none;
+}
+body {
+    overflow: overlay;
+}
+a {
+    cursor: pointer;
+}
+#panelRow.row {
+    margin-top: 40px;
+    padding: 0 10px;
+}
+.clickable {
+    cursor: pointer;
+}
+.panel-heading div {
+    margin-top: -18px;
+    font-size: 15px;
+}
+.panel-heading div span {
+    margin-left: 5px;
+}
+#resultTable .panel-body {
+    display: none;
+}
+.container {} .table {
+    table-layout: fixed;
+}
+.table td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    ;
+}
+.break {
+    word-break: break-all;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+#myCarousel {
+    width: 52%;
+    margin: 0 auto;
+}
+.input-group {
+    margin: 10px 0;
+}
+.isHidden {
+    display: none;
+}
+.mgRm{
+    margin-bottom: 0;
+}
+#navbar-smartSelector{
+    position: relative;
+}
+#iframeContainer{
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#iframeView{
+    display: block;
+    width: 100%;
+    border: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+ul.nav .input-group input{
+    height: 30px !important;
+}
+ul.nav .input-group span button{
+    padding: 4px 12px !important;
+}
